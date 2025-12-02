@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="images/Generation_1.jpg" width="100%" />
+  <img src="images/Generation_1.png" width="100%" />
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ We reuse most architectural hyperparameters from GPT-2 [Radford et al., 2019](#r
 ### Sample generations
 
 <p align="center">
-  <img src="images/Generation_1.jpg" width="100%" />
+  <img src="images/Generation_1.png" width="100%" />
 </p>
 
 ---
@@ -154,7 +154,7 @@ The Q-Former-style bridge follows the idea of BLIP-2 [Li et al., 2023](#ref-blip
   Blue blocks are frozen; red blocks are trainable.
 
   <p align="center">
-    <img src="images/Q_former_architecture.png" width="60%" />
+    <img src="images/Q-former architecture.png" width="60%" />
   </p>
 
 - **Sample captions:**  
