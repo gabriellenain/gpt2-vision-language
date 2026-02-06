@@ -206,11 +206,11 @@ class GPT(nn.Module) :
         return optimizer
 
 
-def pool_clip_197_to_33_avg_with_cls(tokens_197: torch.Tensor) -> torch.Tensor:
+def pool_clip_257_to_33_avg_with_cls(tokens_257: torch.Tensor) -> torch.Tensor:
 
-    B, L, D = tokens_197.shape
-    cls = tokens_197[:, :1, :]            
-    patches = tokens_197[:, 1:, :]   
+    B, L, D = tokens_257.shape
+    cls = tokens_257[:, :1, :]            
+    patches = tokens_257[:, 1:, :]   
     N = patches.size(1)
     side = int(round(N ** 0.5))
     assert side * side == N, f"Expected square grid, got N={N}"
